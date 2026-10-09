@@ -1,0 +1,124 @@
+@cor-padrao: #242d37;
+
+body{
+	background: @cor-padrao;
+}
+/*COLORS*/
+a{
+	color: #daa520;
+}
+nav {
+	background-color: #daa520;
+}
+.bg_fff{
+	background: #ffffff;
+	padding: 15px !important;
+	min-height: 600px !important;
+}
+.bg_242d37{
+	background: @cor-padrao;
+	border-radius: 5px;
+	color: #fff;
+}
+.bg_color{
+	background: #daa520;
+	color: #ffffff;
+	border-radius: 5px;
+}
+.bg_color:hover{
+	color: #daa520;
+	background: #fff;
+}
+
+#aviso{
+	color: #80fa5f;
+}
+.bt-new {
+	padding: 10px 15px;
+	color: #fff;
+	background: @cor-padrao;
+	display: inline-block;
+	border-radius: 5px;
+}
+.bt-new:hover{
+	background: #daa520;
+	color: #ffffff;
+}
+.note-editor .note-toolbar .btn, .note-editor .note-toolbar, .note-editor .note-resizebar{
+	background: @cor-padrao;
+}
+.note-editor .btn.active{
+	background: #ab7e0c !important;
+}
+.note-editor {
+	border-left: 3px solid @cor-padrao;
+	border-bottom: 3px solid @cor-padrao;
+	border-right: 3px solid @cor-padrao;
+}
+.note-editor .note-resizebar .note-icon-bar {
+	border-top: 2px solid #ffffff;
+}
+.table-of-contents a{
+	color: #ffffff;
+	background: #161c23;
+	display: block;
+	padding: 10px 15px;
+	height: auto;
+}
+.table-of-contents a:hover, .table-of-contents a.active{
+	color: #eeeeee;
+	border-left: 1px solid #daa520;
+}
+/*FIM COLORS*/
+
+ul:not(.browser-default) {
+	z-index: 9999;
+}
+a.sidenav-trigger.button-collapse.right-float.icon-menu.hide-on-large-only {
+	padding: 7px;
+	font-size: 25px;
+}
+.ml_10{
+	margin: 0 !important;
+}
+.border-right{
+	border-right: 1px solid #f8f8f8;
+}
+.modal{
+	z-index: 9999 !important;
+	padding-bottom: 20px;
+}
+.input-field label.checkbox{
+	position: relative;
+}
+.character-counter{
+	display: none;
+}
+.image{
+	padding: 5px;
+	background: #f8f8f8;
+	box-shadow: 0px 0px 12px 0px #ccc;
+}
+.image img{
+	width: 100%;
+}
+#password_again-error{
+	top: 60px !important;
+}
+.right-float{
+	float: right;
+}
+td.ver_mais{
+	background-color: @cor-padrao;
+}
+.home table.highlight>tbody>tr:hover, .home table.striped>tbody>tr:nth-child(odd) { 
+	background-color: #2b3540 !important;
+}
+
+@media (max-width: 993px) {
+	td {
+		width: 100%;
+		max-width: 300px;
+		overflow: hidden;
+	}
+}

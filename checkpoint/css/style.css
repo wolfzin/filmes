@@ -1,0 +1,356 @@
+body {
+  background: #2a93a5;
+}
+/*COLORS*/
+a {
+  color: #fff;
+}
+nav {
+  background-color: #daa520;
+}
+.remove_field{
+  font-size: 15px;
+}
+.bg_fff {
+  background: #ffffff;
+  padding: 15px !important;
+  /* height: 100vh; */
+}
+.bg_242d37 {
+  background: #242d37;
+  border-radius: 5px;
+  color: #fff;
+}
+.bg_color {
+  background: #2a93a5;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.bg_color:hover {
+  color: #daa520;
+  background: #fff;
+}
+#aviso {
+  color: #80fa5f;
+}
+.bt-new {
+  padding: 10px 15px;
+  color: #fff;
+  background: #242d37;
+  display: inline-block;
+  border-radius: 5px;
+}
+.bt-new:hover {
+  background: #daa520;
+  color: #ffffff;
+}
+
+.note-editor .note-toolbar .btn,
+.note-editor .note-toolbar,
+.note-editor .note-resizebar {
+  background: #242d37;
+}
+.note-editor .btn.active {
+  background: #ab7e0c !important;
+}
+.note-editor {
+  border-left: 3px solid #242d37;
+  border-bottom: 3px solid #242d37;
+  border-right: 3px solid #242d37;
+}
+.note-editor .note-resizebar .note-icon-bar {
+  border-top: 2px solid #ffffff;
+}
+.table-of-contents a {
+  color: #2a93a5;
+  background: #fff;
+  display: block;
+  height: 50px;
+  font-weight: bold;
+  box-sizing: border-box;
+  line-height: 50px;
+}
+.table-of-contents a:hover,
+.table-of-contents a.active {
+  color: #ffffff;
+  border-bottom: 3px solid #daff9d;
+  background: #2a93a5;
+  border-left: 0;
+}
+/*FIM COLORS*/
+ul:not(.browser-default) {
+  z-index: 9999;
+}
+a.sidenav-trigger.button-collapse.right-float.icon-menu.hide-on-large-only {
+  padding: 7px;
+  font-size: 25px;
+}
+.ml_10 {
+  margin: 0 !important;
+}
+.border-right {
+  border-right: 1px solid #f8f8f8;
+}
+.modal {
+  z-index: 9999 !important;
+  padding-bottom: 20px;
+}
+.input-field label.checkbox {
+  position: relative;
+}
+.character-counter {
+  display: none;
+}
+
+label, .input-field>label{
+    /* color: #ffffff; */
+    font-weight: bold;
+    font-size: 15px;
+}
+.image {
+  padding: 5px;
+  background: #f8f8f8;
+  box-shadow: 0px 0px 12px 0px #ccc;
+}
+.image img {
+  width: 100%;
+}
+#password_again-error {
+  top: 60px !important;
+}
+.finalizar{
+    background-color: #1e9f50 !important;
+}
+.right-float {
+  float: right;
+  font-size: 30px;
+}
+td.ver_mais {
+  background-color: #242d37;
+}
+.home table.highlight > tbody > tr:hover,
+.home table.striped > tbody > tr:nth-child(odd) {
+  background-color: #2b3540 !important;
+}
+@media (max-width: 993px) {
+  td {
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+  }
+}
+#modal-galeria span{
+  width: 150px;
+  height: 120px;
+  overflow: hidden;
+}
+#modal-galeria span img{
+  width: 80%;
+}
+#modal-galeria [type="checkbox"]:checked+span:not(.lever):before{
+  left: 4px;
+}
+#modal-galeria [type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after{
+  top: -3px;
+  left: 11px;
+}
+#modal-galeria input[type=submit]{
+  line-height: 35px;
+  color: #fff;
+  font-weight: bold;
+}
+.col.s12.input-field.categorias_imoveis {
+    height: 230px;
+    overflow: auto;
+}
+.popup{
+  min-height: 300px;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  position: relative;
+  top: -50vh;
+  background: #fff;
+  display: none ;
+  z-index: 9999;
+}
+strong {
+    font-weight: bold;
+}
+#editor {
+  height: 300px;
+}
+
+.ql-toolbar.ql-snow {
+    
+    display: flex;
+}
+.select2{
+  margin-top: 40px !important;
+}
+.qtdAulas{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+#input-extra .input-field{
+  background: #ebebeb;
+  border-radius: 5px;
+  padding: 15px;
+}
+.progresso_aluno ul li{
+    background: #f3f3f3;
+    padding: 15px 30px;
+    margin: 15px;
+}
+.busca{
+  background: #5f8a95;
+  padding: 15px;
+  color: #fff;
+}
+.busca input{
+  color: #fff;
+}
+.busca label{
+  color: #fff;
+}
+.forma-pagamento{
+  background: #587e89;
+  color: #fff;
+  padding-bottom: 15px;
+}
+.forma-pagamento input{
+  background: #688a94;
+  color: #fff;
+  padding: 20px;
+  border: 0;
+  margin: 0 0 15px 0;
+}
+
+/* Estilos para a popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.popup-conteudo {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.relatorio-hoje{
+    background: #1e4a91;
+    color: #fff;
+    text-align: center;
+    padding: 5px !important;
+    
+}
+.relatorio-mes{
+    background: #102e5e;
+     color: #fff;
+    text-align: center;
+    padding: 5px !important;
+}
+.relatorio-mes p, .relatorio-hoje p{
+    padding:0; margin:0;
+}
+.dataatual{
+    background: #161c23;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin:0;
+}
+.progress-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 20px;
+    
+}
+
+.progress-bar {
+    transition: width 2s linear;
+    width: 0;
+    max-width: 100%;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+.btn.pendente [type="checkbox"]+span:not(.lever):before, .btn.pendente [type="checkbox"]:not(.filled-in)+span:not(.lever):after{
+    border: 2px solid #fff;
+}
+
+.btn.pendente [type="checkbox"]:checked+span:not(.lever):before{
+    top: -4px;
+    left: -5px;
+    width: 12px;
+    height: 22px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+.btn.pendente [type="checkbox"]+span:not(.lever){
+    color:#fff;
+}
+.vermelho, .verde{
+   background: #fb4f46; 
+   float: left;
+   color: #FFF;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    width: 50%;
+}
+.verde{
+    background: #4fa95e;
+    border-radius: 5px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    
+}
+
+.col.s4.input-field.borda {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.situacao {
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+#meuLink.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+form#form-pagamento label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#input-opcao select{display: block;}
